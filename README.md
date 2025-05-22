@@ -103,16 +103,15 @@ node backend_llama_ocr.js
 ## 📱 Frontend Setup (React Native)
 
 Set up the mobile app frontend:
-
 ```bash
 cd frontend
 npm install
-npm start
-```
-
-> Use the Expo Go app on your phone or Android/iOS emulator to preview the app.
-> **For Android emulator**, backend runs on: Your ip address`
-
+npx react-native run-android   # for Android emulator/device
+# or
+npx react-native run-ios       # for iOS simulator/device
+````
+> Make sure you have the React Native CLI installed and your emulator or device ready.
+> **For Android emulator**, the backend runs on: `http://10.0.2.2:5000`
 ---
 
 ## 🔐 Firebase Setup
