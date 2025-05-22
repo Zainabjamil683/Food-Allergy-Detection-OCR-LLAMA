@@ -131,7 +131,6 @@ Firebase is used to store and retrieve user allergy data.
 
 1. Rename the file to: `firebase_config.json`
 2. Place it in the `backend/` folder.
-3. Add this file to `.gitignore` to keep it private.
 
 ---
 
